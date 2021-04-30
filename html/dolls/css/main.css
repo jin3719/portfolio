@@ -1,0 +1,199 @@
+@charset "utf-8";
+
+
+
+/*바디 부분*/
+
+body { font-family: 'KoPubDotum'; font-size:1.0rem; line-height:1; color:#000; }
+#wrap { overflow: hidden; }
+
+
+
+
+/*헤더 부분*/
+#header {width: 100%; padding: 20px 6.25%;  box-sizing: border-box;}
+/*padding: 20px 120px*/
+#header .inner {display: flex; position: relative;}
+
+
+#header .login {display: flex; position: absolute; right: 0;}
+#header .login li {padding-left: 1.041vw; font-size: 0.812rem; font-family: 'AppleSDGothicNeoM00';}/*padding-left: 20px font-size: 13px; */
+#header .login li a {color:#7a7a7a;}
+
+
+#header .gnb {display: flex; position: absolute; right: 0; top: 40px;}
+#header .gnb li {padding-left: 120px; font-size: 20px; font-family: 'AppleSDGothicNeoM00';}
+
+
+
+/*모바일 메뉴*/
+
+
+
+
+/* Tablets */
+@media all and (min-width : 768px) and (max-width : 1024px) {
+
+}
+
+
+/* Mobile */
+@media all and (max-width : 767px) {
+
+}
+
+
+/*메인 비쥬얼 영역*/
+#main_visual {height: 750px; text-align: center;}
+#main_visual .mv li {height: 750px;}/*height: 750px;*/
+
+#main_visual .mv li.mv1 {background: url('../images/main_banner_1.jpg') no-repeat center top; background-size: cover;}
+#main_visual .mv li.mv2 {background: url('../images/main_banner_2.jpg') no-repeat center top; background-size: cover;}
+#main_visual .mv li.mv3 {background: url('../images/main_banner_3.jpg') no-repeat center top; background-size: cover;}
+
+
+
+/* 메인 비쥬얼 슬라이드*/
+#main_visual .bx-pager { position:absolute; bottom:100px; left:50%; transform: translateX(-50%); }
+#main_visual .bx-pager-item { float:left; }
+#main_visual .bx-pager a { background:#fff; text-indent:-9999px; display:block; width:10px; height:10px; margin:0 5px; border-radius:15px; transition:all 0.2s; margin : 0 10px 35px; border: solid 3px #fff}
+#main_visual .bx-pager a.active { background:#b48688; }
+/* direction */
+#main_visual .bx-controls-direction a { position: absolute; top: 50%; margin-top: -75px; width: 55px; height: 150px; text-indent: -9999px; }
+#main_visual .bx-prev { left: 4%; background: url(../images/left.png) no-repeat center center;}
+#main_visual .bx-next { right: 4%; background: url(../images/right.png) no-repeat center center;}
+
+
+
+/*모바일 메뉴*/
+
+/* Tablets */
+@media all and (min-width : 768px) and (max-width : 1024px) {
+
+}
+
+
+/* Mobile */
+@media all and (max-width : 767px) {
+
+}
+
+
+
+
+/*공지사항 영역*/
+
+#notice {width: 100%; box-sizing: border-box;}
+#notice ul {display: flex;}
+#notice ul li {width: calc(100%/3); text-align: center; }
+
+#notice ul li a {font-size:1.25rem; font-weight:bolder; display: block;}/*font-size: 20px*/
+
+#notice ul li:nth-child(1) a {background:#f4d6d8; padding: 50px 0; color: #875753;}
+#notice ul li:nth-child(1) span {background: url(../images/icon_1.png) no-repeat 0 center; display: inline-block; padding:10px 0 10px 40px;  }
+
+
+#notice ul li:nth-child(2) a {background:#b48688; padding: 50px 0; color: #fff;}
+#notice ul li:nth-child(2) span {background: url(../images/icon_2.png) no-repeat 0 center; display: inline-block; padding:10px 0 10px 40px;  }
+
+#notice ul li:nth-child(3) a {background:#875753; padding: 50px 0; color: #fff;}
+#notice ul li:nth-child(3) span {background: url(../images/icon_3.png) no-repeat 0 center; display: inline-block; padding:10px 0 10px 40px;  }
+
+
+
+
+/*전시실 영역*/
+
+#room {padding: 200px 9.635%; box-sizing: border-box; text-align: center; }
+/*padding: 200px 185px*/
+#room h2 {font-family: 'IBM Plex Sans KR'; font-size: 2.187rem; display: inline-block; border-bottom:2px solid #000; padding-bottom: 50px; margin-bottom: 20px;}/*font-size: 35px;*/
+
+#room ul {display: flex; flex-wrap: wrap; }
+
+#room ul li:nth-child(2),#room ul li:nth-child(5) { margin-top: 250px; }
+ 
+
+
+
+
+
+/*박물관 소개 영역*/
+#museum {padding: 60px 9.635%; text-align: center; background: url(../images/bg_intro.jpg);}
+#museum h3 {font-family: 'IBM Plex Sans KR'; font-size: 2.187rem; display: inline-block; border-bottom:2px solid #fff; padding-bottom: 50px; margin-bottom: 60px; color: #fff;margin-top: 65px;}
+#museum p {color: #fff; line-height: 1.5;}
+#museum .bt a {display: inline-block; border: solid 2px #f4d6d8; border-radius: 50px; padding: 10px 40px; margin-top: 40px; color: #fff; transition: background 0.2s; font-weight: bold;}
+#museum .bt a:hover {background: #f4d6d8; color: #000;}
+
+
+
+/*모바일 메뉴*/
+
+/* Tablets */
+@media all and (min-width : 768px) and (max-width : 1024px) {
+
+}
+
+
+/* Mobile */
+@media all and (max-width : 767px) {
+
+}
+
+
+
+
+
+/*공연 안내 영역*/
+#live {padding: 130px 9.635% 0px; }
+#live .inner {display: flex; justify-content: space-between; align-items: center;}
+#live .inner div {width: calc(100%/2); box-sizing: border-box;}
+#live h2 {font-family: 'IBM Plex Sans KR'; font-size: 2.187rem; display: inline-block; border-bottom:2px solid #000; padding-bottom: 50px; margin-bottom: 50px;}
+#live .ment {}
+#live .bt a {display: inline-block; background: #b48688; color: #fff; padding: 13px 45px; border-radius: 50px; margin-top: 30px; transition: background 0.5s}
+#live .bt a:hover {background: #6e4b4c;}
+
+
+
+
+/*굿즈 안내 영역*/
+#goods {padding: 0px 9.635% 130px;}
+
+#goods .inner {display: flex; justify-content: space-between; align-items: center; text-align: right;}
+#goods .inner div {width: calc(100%/2); box-sizing: border-box;}
+#goods h2 {font-family: 'IBM Plex Sans KR'; font-size: 2.187rem; display: inline-block; border-bottom:2px solid #000; padding-bottom: 50px; margin-bottom: 50px;}
+#goods .ment {}
+#goods .bt a {display: inline-block; background: #b48688; color: #fff; padding: 13px 45px; border-radius: 50px; margin-top: 30px; transition: background 0.5s}
+#goods .bt a:hover {background: #6e4b4c;}
+
+
+
+
+
+/*갤러리 영역*/
+#gallery {padding: 90px 9.635%; background: #ddcdac; text-align: center;}
+#gallery h2 {font-family: 'IBM Plex Sans KR'; font-size: 2.187rem; display: inline-block; border-bottom:2px solid #000; padding-bottom: 50px; margin-bottom: 50px;}
+#gallery ul {display: flex;justify-content:space-between; }
+#gallery li img {width: 100%;}
+#gallery li {width: calc(100%/5);}
+
+
+
+
+
+/*풋터 영역*/
+#footer {background: #a48870; padding: 50px 9.635%;
+position: relative}
+#footer .inner {position: relative;}
+#footer ul {display: flex;}
+#footer ul li {margin-right: 70px;}
+#footer ul li a {color: #fff; font-weight: bold; display: block; margin-bottom: 35px;}
+#footer address {color: #f9d7bb; line-height: 1.3;}
+#footer .f_logo {position: absolute; right: 0; top: 80px}
+
+
+
+
+
+
+
+

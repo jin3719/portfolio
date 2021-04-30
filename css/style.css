@@ -556,8 +556,8 @@ h1, h2, h3, h4, h5, h6 {
   background: transparent;
 }
 #fh5co-intro .fh5co-block:hover .btn:hover, #fh5co-intro .fh5co-block:focus .btn:hover {
-  background: #52d3aa !important;
-  border: 2px solid #52d3aa !important;
+  background: #ff6264 !important;
+  border: 2px solid #ff6264 !important;
 }
 
 .watch-video {
@@ -1409,3 +1409,13 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /*# sourceMappingURL=style.css.map */
+
+
+
+
+
+#fh5co-header.navbar-fixed-top #navbar li.active a span:before { background:#ffa3a4; }
+
+
+
+.fh5co-block { width: 390px !important; }

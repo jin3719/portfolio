@@ -5,7 +5,7 @@ $grid-gutter-width: 40px !default;
 $border-radius-base:  4px !default;
 $padding-base-vertical: 14px !default;
 
-$brand-primary: #52d3aa !default;
+$brand-primary: #ffa3a4 !default;
 $brand-secondary: #3f95ea !default; 
 
 
@@ -430,7 +430,7 @@ h1, h2, h3, h4, h5, h6 {
 								visibility: visible;
 								-webkit-transform: scaleX(1);
 								transform: scaleX(1);
-								background-color: $brand-primary;
+								background-color: #ffa3a4
 							}
 						}
 					}
@@ -513,7 +513,7 @@ h1, h2, h3, h4, h5, h6 {
 		h1 {
 			font-size: 80px;
 			color: #000;
-			margin: 0 0 20px 0;
+			margin: 0 0 20px -120px;
 		}
         
 		h2 {
@@ -521,7 +521,7 @@ h1, h2, h3, h4, h5, h6 {
 			line-height: 38px;
 			font-weight: 300;
             color: #000;
-			margin: 0;
+			margin: 0 0 0 -120px;
 		}
 	}
 }

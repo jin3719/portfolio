@@ -1421,3 +1421,5 @@ h1, h2, h3, h4, h5, h6 {
 .fh5co-block { width: 390px !important; }
 
 .section-heading h2:after {background: #ffa3a4}
+
+.fh5co-person {border: 1px solid #ffb6c5;}

@@ -1420,6 +1420,20 @@ h1, h2, h3, h4, h5, h6 {
 
 .fh5co-block { width: 390px !important; }
 
+@media all and (max-width: 768px) {
+  .fh5co-block { width: 100% !important; float:none !important; }
+}
+
+
 .section-heading h2:after {background: #ffa3a4}
 
 .fh5co-person {border: 1px solid #ffb6c5;}
+
+@media all and (max-width: 768px) {
+  .web-container { margin: 0 -15px; }
+  .web-row { width: 100%; margin: 0 auto; }
+}
+
+
+
+#fh5co-intro {margin-top: 0;}

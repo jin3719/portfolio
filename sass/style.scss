@@ -1041,7 +1041,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .fh5co-person {
-	border: 2px solid #ffa3a4;
+	border: 2px solid lighten($brand-black, 95%);
 	padding: 80px 30px 30px 30px;
 	float: left;
 	width: 100%;

@@ -2435,4 +2435,9 @@
 .icon-ellipsis:before {
 	content: "\e129";
 }
+.icon-photoshop:before {
+	content: "\e04b";
+}
+
+
 
